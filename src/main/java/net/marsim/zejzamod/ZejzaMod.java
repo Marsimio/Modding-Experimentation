@@ -1,7 +1,11 @@
 package net.marsim.zejzamod;
 
 import com.mojang.logging.LogUtils;
+import net.marsim.zejzamod.item.ModCreativeModeTabs;
+import net.marsim.zejzamod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,17 +20,23 @@ import org.slf4j.Logger;
 @Mod(ZejzaMod.MOD_ID)
 public class ZejzaMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "zejzamod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
+
+
+
     public ZejzaMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        MinecraftForge.EVENT_BUS.register(this);
+        modEventBus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -37,6 +47,10 @@ public class ZejzaMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.ZEJZANIUM);
+            event.accept(ModItems.RAW_ZEJZANIUM);
+        }
 
     }
 
