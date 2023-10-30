@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "zejzamod:zejzanium"
+        }
+    },
+    "result": {
+        "item": "zejzamod:zejzanium_block",
+        "count": 1
+    }
+}
