@@ -1,6 +1,7 @@
 package net.marsim.zejzamod.item;
 
 import net.marsim.zejzamod.ZejzaMod;
+import net.marsim.zejzamod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ZEJZANIUM.get());
                         pOutput.accept(ModItems.RAW_ZEJZANIUM.get());
+
+                        pOutput.accept(ModBlocks.ZEJZANIUM_BLOCK.get());
 
 
                     })
