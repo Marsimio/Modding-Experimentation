@@ -1,6 +1,10 @@
 {
   "item.zejzamod.zejzanium": "Zejzanium",
   "item.zejzamod.raw_zejzanium": "Raw Zejzanium",
+
   "block.zejzamod.zejzanium_block": "Zejzanium Block",
+  "block.zejzamod.zejzanium_ore": "Zejzanium Ore",
+  "block.zejzamod.deepslate_zejzanium_ore": "Deepslate Zejzanium Ore",
+
   "creativetab.zejza_tab": "Zejza Mod"
 }
