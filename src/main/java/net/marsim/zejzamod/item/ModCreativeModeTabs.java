@@ -20,6 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ZEJZANIUM.get());
                         pOutput.accept(ModItems.RAW_ZEJZANIUM.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
 
                         pOutput.accept(ModBlocks.ZEJZANIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.ZEJZANIUM_ORE.get());
