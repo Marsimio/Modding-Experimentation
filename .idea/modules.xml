@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding-Experimentation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding-Experimentation.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding-Experimentation.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding-Experimentation.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding_Experimentation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding_Experimentation.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Modding_Experimentation.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Modding_Experimentation.test.iml" />
     </modules>

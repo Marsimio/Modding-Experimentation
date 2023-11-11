@@ -1,6 +1,7 @@
 package net.marsim.zejzamod.item;
 
 import net.marsim.zejzamod.ZejzaMod;
+import net.marsim.zejzamod.item.custom.FireballWandItem;
 import net.marsim.zejzamod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,9 @@ public class ModItems {
 
         public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
+        public static final RegistryObject<Item> FIREBALL_WAND = ITEMS.register("fireball_wand",
+            () -> new FireballWandItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

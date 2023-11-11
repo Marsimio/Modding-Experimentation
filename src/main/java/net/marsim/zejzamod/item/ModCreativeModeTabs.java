@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.ZEJZANIUM.get());
                         pOutput.accept(ModItems.RAW_ZEJZANIUM.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModItems.FIREBALL_WAND.get());
 
                         pOutput.accept(ModBlocks.ZEJZANIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.ZEJZANIUM_ORE.get());
