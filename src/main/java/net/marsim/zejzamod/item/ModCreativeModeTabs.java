@@ -22,10 +22,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.RAW_ZEJZANIUM.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
                         pOutput.accept(ModItems.FIREBALL_WAND.get());
+                        pOutput.accept(ModItems.FLAME_TONGUE.get());
+                        pOutput.accept(ModItems.SARADOMINGODSWORD.get());
+                        pOutput.accept(ModItems.BUCKLERSHIELD.get());
+                        pOutput.accept(ModItems.ROTISSERIE_CHICKEN.get());
+                        pOutput.accept(ModItems.EMBER.get());
 
                         pOutput.accept(ModBlocks.ZEJZANIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.ZEJZANIUM_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_ZEJZANIUM_ORE.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
 
                     })

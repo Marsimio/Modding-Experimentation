@@ -3,10 +3,18 @@
   "item.zejzamod.raw_zejzanium": "Raw Zejzanium",
   "item.zejzamod.metal_detector": "Metal Detector",
   "item.zejzamod.fireball_wand": "Fireball Wand",
+  "item.zejzamod.flame_tongue": "Flame Tongue",
+  "item.zejzamod.saradomin_godsword": "Saradomin Godsword",
+  "item.zejzamod.buckler_shield": "Buckler Shield",
+  "item.zejzamod.rotisserie_chicken": "Rotisserie Chicken",
+  "item.zejzamod.ember": "Ember",
+
+  "tooltip.zejzamod.saradomingodsword.tooltip": "Wow look the Saradomin Godsword from DnD.",
 
   "block.zejzamod.zejzanium_block": "Zejzanium Block",
   "block.zejzamod.zejzanium_ore": "Zejzanium Ore",
   "block.zejzamod.deepslate_zejzanium_ore": "Deepslate Zejzanium Ore",
+  "block.zejzamod.sound_block": "Sound Block",
 
   "creativetab.zejza_tab": "Zejza Mod"
 }

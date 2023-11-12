@@ -1,6 +1,7 @@
 package net.marsim.zejzamod.block;
 
 import net.marsim.zejzamod.ZejzaMod;
+import net.marsim.zejzamod.block.custom.SoundBlock;
 import net.marsim.zejzamod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -29,6 +30,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_ZEJZANIUM_ORE = registerBlock("deepslate_zejzanium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

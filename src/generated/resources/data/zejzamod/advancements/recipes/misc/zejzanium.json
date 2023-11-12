@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "zejzamod:zejzanium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zejzanium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "zejzamod:zejzanium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_zejzanium_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "zejzamod:zejzanium"
+    ]
+  },
+  "sends_telemetry_event": false
+}

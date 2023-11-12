@@ -7,6 +7,9 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2023-11-12 00:24:59 +0100",
+      "minecraft:sparse_jungle": "2023-11-12 00:25:00 +0100",
+      "minecraft:river": "2023-11-11 22:50:17 +0100",
       "minecraft:birch_forest": "2023-10-29 20:00:12 +0100",
       "minecraft:lush_caves": "2023-11-09 13:01:58 +0100"
     },
@@ -104,8 +107,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2023-11-11 23:56:16 +0100",
+      "minecraft:enderman": "2023-11-11 23:55:14 +0100",
       "minecraft:zombie": "2023-11-01 23:30:17 +0100",
-      "minecraft:creeper": "2023-11-09 13:00:12 +0100"
+      "minecraft:creeper": "2023-11-09 13:00:12 +0100",
+      "minecraft:wither": "2023-11-11 23:55:01 +0100"
     },
     "done": false
   },
@@ -196,6 +202,168 @@
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2023-11-09 13:08:53 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2023-11-11 23:38:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2023-11-11 23:38:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2023-11-11 23:38:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2023-11-11 23:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2023-11-11 23:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-11-11 23:54:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2023-11-11 23:54:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2023-11-11 23:54:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2023-11-11 23:54:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2023-11-11 23:54:35 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-11-11 23:54:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2023-11-11 23:54:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2023-11-11 23:54:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2023-11-11 23:57:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2023-11-12 00:00:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2023-11-12 00:00:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2023-11-12 00:00:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2023-11-12 00:24:34 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2023-11-12 20:05:03 +0100"
+    },
+    "done": false
+  },
+  "zejzamod:recipes/misc/zejzanium_block": {
+    "criteria": {
+      "has_zejzanium": "2023-11-12 22:43:05 +0100"
+    },
+    "done": true
+  },
+  "zejzamod:recipes/misc/zejzanium_from_smelting_zejzanium_ore": {
+    "criteria": {
+      "has_zejzanium_ore": "2023-11-12 22:43:05 +0100"
+    },
+    "done": true
+  },
+  "zejzamod:recipes/misc/zejzanium_from_blasting_zejzanium_ore": {
+    "criteria": {
+      "has_zejzanium_ore": "2023-11-12 22:43:05 +0100"
     },
     "done": true
   },
